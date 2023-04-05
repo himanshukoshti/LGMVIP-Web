@@ -1,0 +1,47 @@
+/* Navbar */
+.navbar_custom{
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.company_name{
+    padding: 15px 20px;
+    font-size: 25px;
+}
+
+.get_users_button{
+    border: none;
+    border-radius: 25px;
+    padding: 5px 20px;
+    background-color: rgb(88, 115, 250);
+}
+
+/* Cards */
+.card{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border: none;
+    padding: 30px 0px;
+    margin-left: 1px;
+    margin-top: 50px;
+}
+
+.card_img{
+    border-radius: 50%;
+    object-fit: contain;
+    height: 180px;
+    width: auto;
+}
+
+.card_details{
+    margin-top: 30px;
+}
+
+.card_details p{
+    margin-bottom: 0px;
+}
+
+.loading{
+    margin: 0 0;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 35vh;
+}

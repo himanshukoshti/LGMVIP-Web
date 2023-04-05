@@ -1,0 +1,36 @@
+#mainbox{
+    background-color: rgb(175, 206, 195);
+    height: 82%;
+    width: 25%;
+    margin: 55px 400px;
+}
+#display{
+    background-color: rgb(30, 105, 49);
+    color: white;
+    height: 90px;
+    width: 100%;
+    font-size: 40px;
+    border-style: none;
+    margin-bottom: 13px;
+    padding-left: 20px;
+}
+#button1{
+    margin-left: 10px;
+}
+.button{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+#clear{
+    width: 115px;
+    color: white;
+    text-align: center;
+    color: white;
+    background-color: rgb(30, 105, 49);
+}

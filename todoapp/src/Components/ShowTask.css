@@ -1,0 +1,28 @@
+.task_row{
+    background-color: aliceblue;
+    padding: 5px 15px;
+}
+
+.task_button{
+    padding: 0 0;
+}
+
+.complete_button{
+    background-color: rgb(70, 231, 70);
+    height: 100%;
+    width: 100%;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.delete_button{
+    background-color: rgb(222, 76, 76);
+    height: 100%;
+    width: 100%;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.delete_button:hover{
+    background-color: rgb(236, 88, 88);
+}

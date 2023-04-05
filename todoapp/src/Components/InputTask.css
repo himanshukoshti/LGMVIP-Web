@@ -1,0 +1,117 @@
+input {
+    border-style: none;
+    background: transparent;
+    outline: none;
+}
+button {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* background-image: radial-gradient(circle at 0% 0%, #373b52, #252736 51%, #1d1e26); */
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+div{
+    display: block;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+   }
+    100% {
+        background-position: 100% 0;
+   }
+}
+
+.webflow-style-input {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto;
+    border-radius: 2px;
+    padding: 0 0;
+    background: rgba(57, 63, 84, 0.8);
+}
+
+.webflow-style-input:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999;
+    height: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-position: 0% 0%;
+    background: linear-gradient(to right, #b294ff, #57e6e6, #feffb8, #57e6e6, #b294ff, #57e6e6);
+    background-size: 500% auto;
+    animation: gradient 3s linear infinite;
+}
+.webflow-style-input input {
+    color: #bfd2ff;
+    width: 100%;
+    font-size: 18px;
+    padding: 0 0;
+    padding-left: 10px !important;
+    line-height: 2.4rem;
+    vertical-align: middle;
+}
+.webflow-style-input input::-webkit-input-placeholder {
+    color: #7881a1;
+}
+.webflow-style-input button {
+    color: #101011;
+    font-size: 18px;
+    padding: 0 10px;
+    line-height: 2.4rem;
+    vertical-align: middle;
+    transition: color 0.25s;
+}
+.webflow-style-input button:hover {
+    color: #0d53f7;
+}
+
+.submit_button{
+    background-color: #bfd2ff;
+    padding: 0 5px;
+}
+
+/* Rendering task */
+.task_row{
+    background-color: aliceblue;
+    padding: 5px 15px;
+}
+
+.task_button{
+    padding: 0 0;
+}
+
+.complete_button{
+    background-color: rgb(70, 231, 70);
+    height: 100%;
+    width: 100%;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.delete_button{
+    background-color: rgb(222, 76, 76);
+    height: 100%;
+    width: 100%;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.delete_button:hover{
+    background-color: rgb(236, 88, 88);
+}
